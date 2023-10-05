@@ -3,7 +3,7 @@
 
 In this scenario, as a new lead analyst for the New York Citi Bike program I was tasked with building an interactive Tableau workbook and provide valuable insights into the program. 
 
-I chose to focus on Jersey City data from July 2022 to July 2023 inclusive. The data was in the form of csv files that were zipped and were sourced from: https://citibikenyc.com/system-data. Using Jupyter Notebook, I appended and cleaned the data files to be used as a single source to be uploaded to Tableau Public. Once uploaded, worksheets were populated with various measures and views to gain insights. From this I was able to formulate a story by creating 4 dashboards. Lastly, I created a dashboard to show the outliers in the data and the reasoning for excluding them from the analysis.
+I chose to focus on Jersey City data from July 2022 to July 2023 inclusive. The data was in the form of csv files that were zipped and sourced from: https://citibikenyc.com/system-data. Using Jupyter Notebook, I appended and cleaned the data files to be used as a single source to be uploaded to Tableau Public. Once uploaded, worksheets were populated with various measures and views to gain insights. From this I was able to formulate a story by creating 4 dashboards. Lastly, I created a dashboard to show the outliers in the data and the reasoning for excluding them from the analysis.
 
 **The url to my Tableau Public Workbook:**
 https://public.tableau.com/app/profile/katharine.tamas/viz/NewYorkCitiBikeAnalysis_16953918404890/JerseyCityBikesStory?publish=yes
@@ -80,7 +80,7 @@ At the beginning, I imported 13 csv Jersey City data files into Jupyter Notebook
 
 ### Part 2: Create the Tableau Workbook and Perform Analysis
 
-In this section, I imported the cleaned consolidated csv file into Tableau and created numerous worksheets to investigate the data to gain insights. Once I was comfortable with the story I wanted to tell, I created 5 dashboards, 4 of which would make up the Tableau story, and one to show the outliers in the data.
+In this section, I imported the cleaned consolidated csv file into Tableau and created numerous worksheets to investigate the data to gain insights. Once I was comfortable with the story I wanted to tell, I created 5 dashboards, 4 of which would make up the Tableau story, and one to show the outliers in the data. Note the analysis below excluded rides that lasted more than 120 minutes.
 
 **Tableau Story:**
 
@@ -168,6 +168,12 @@ In this section, I imported the cleaned consolidated csv file into Tableau and c
 ## Sources
 
 - Icons used in tableau dashboard:
-  - bike
-  -   
+  - bike icon.png (https://www.publicdomainpictures.net/en/view-image.php?image=154290&picture=bicycle-icon)
+  - Citibike Logo.png (https://citibikenyc.com/system-data)
+  - cycling icon.png (https://www.iconfinder.com/icons/2659244/cycling_icon)
+  - distance icon.png (https://www.vecteezy.com/vector-art/548562-distance-line-black-icon)
+  - docked bike icon.png (https://thenounproject.com/icon/bicycle-parking-60650/)
+  - finish icon.png (https://www.vectorstock.com/royalty-free-vector/finish-flag-icon-simple-style-vector-26752358)
+  - outlier icon.png (https://thenounproject.com/icon/outliers-1503810/)
+  - time icon.png (https://www.clipartkey.com/view/mwwbTm_free-time-icon-png/)
 
