@@ -1,7 +1,13 @@
 ## citibike-tableau-challenge
 **Module 18 Challenge - Citibike**
 
-In this scenario, 
+In this scenario, as a new lead analyst for the New York Citi Bike program I was tasked with building an interactive Tableau workbook and provide valuable insights into the program. 
+
+I chose to focus on Jersey City data from July 2022 to July 2023 inclusive. The data was in the form of csv files that were zipped and were sourced from: https://citibikenyc.com/system-data. Using Jupyter Notebook, I appended and cleaned the data files to be used as a single source to be uploaded to Tableau Public. Once uploaded, worksheets were populated with various measures and views to gain insights. From this I was able to formulate a story by creating 4 dashboards. Lastly, I created a dashboard to show the outliers in the data and the reasoning for excluding them from the analysis.
+
+**The url to my Tableau Public Workbook:**
+https://public.tableau.com/app/profile/katharine.tamas/viz/NewYorkCitiBikeAnalysis_16953918404890/JerseyCityBikesStory?publish=yes
+
 
 **Repository Folders and Contents:**
 - Data:
@@ -140,28 +146,21 @@ In this section, I imported the cleaned consolidated csv file into Tableau and c
 ## Getting Started
 
 **Programs/software we used:**
- - Visual Studio Code: used for python coding.
- - Microsoft Excel: to view csv files. Should be available by default on all PCs.
- - QuickDBD: to sketch an ERD of the tables for the data contained in the csv files. (http://www.quickdatabasediagrams.com/) No need to register, diagram can be generated on the website for free.
- - PostgreSQL: is a relational database management system (RDBMS). An RDBMS consists of tables and their predefined relationships. Postgres stores the data. Refer to "Installing" section below.
- - pgAdmin: The pgAdmin tool functions as the window into the database. It's where queries are written, run and then the results of running them are reviewed. pgAdmin provides access to that data. Refer to "Installing" section below.
- - Chrome: to view APIs and final web application.
+ - Tableau Public: data visualisation tool, was used for creation of dashboards and stories.
+ - Jupyter Notebook: python programming tool, was used for data manipulation and consolidation.
 
-**To get webpage running:**
- - Open api.py in Visual Studio Code
- - Navigate to folder location of api.py in terminal
- - Type: python api.py
- - Open index.html in Chrome to view website
-
-**To activate dev environment:**
+**To activate dev environment and open Jupyter Notebook:**
 - Open Anaconda Prompt
 - Activate dev environment, type 'conda activate dev'
+- Navigate to the folder where repository is saved on local drive
+- Open Jupyter Notebook, type 'Jupyter Notebook'
 
 ## Installing
 
-**Installation PostgreSQL & pgAdmin:**
-
-
+**Installation Tableau Public:**
+- Create a Tableau Public Account: https://public.tableau.com/app/discover
+- Download and install the Tableau Public Application to your device: https://www.tableau.com/products/public/download
+  
 ## Contributing
 
 - How to make rounded bar charts: (https://www.bing.com/videos/riverview/relatedvideo?q=tableau%20how%20to%20make%20bar%20charts%20rounded&mid=EFC57FC28579AD2266D0EFC57FC28579AD2266D0&ajaxhist=0)
