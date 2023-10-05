@@ -75,7 +75,7 @@ Finally, I exported the cleaned and consolidated CSV file.
   - JC-202306-citibike-tripdata.csv
   - JC-202307-citibike-tripdata.csv
 
-**Our Jupyter Notebook Python Cleaning Scripts:**
+**My Jupyter Notebook Python Cleaning Script:**
   - Append and Clean Citibike Data.ipynb
 
 **Consolidated Cleaned File I Created:**
@@ -136,7 +136,7 @@ In this section, I imported the cleaned consolidated CSV file into Tableau and g
 
 
 
-**Resource Files We Used:**
+**Resource File I Used:**
   - Jul22_to_Jul23.csv
 
 **Image Files I Used:**
@@ -153,7 +153,7 @@ In this section, I imported the cleaned consolidated CSV file into Tableau and g
 
 ## Getting Started
 
-**Programs/software we used:**
+**Programs/software I used:**
  - Tableau Public: data visualisation tool, was used for creation of dashboards and stories.
  - Jupyter Notebook: python programming tool, was used for data manipulation and consolidation.
 
