@@ -52,7 +52,13 @@ https://public.tableau.com/app/profile/katharine.tamas/viz/NewYorkCitiBikeAnalys
 ## About
 ### Part 1: Clean and Append Data in Jupter Notebook
 
-At the beginning, I imported 13 csv Jersey City data files into Jupyter Notebook. Initial checks were made on the column datatypes and that columns in each data file contained the same information. The 13 files wer then appended into one csv file. Further checks on the data were performed to find any missing/incorrect data. It was found that the start_station_name, start_station_id, end_station_name, end_station_id, end_lat and end_lng fields contained null values. I decided to remove these rows from the data file. I then checked the start and end station names to ensure they were unique. I found 4 end stations that had two names eg. 'Murray St\\t& West St' and 'Murray St & West St'. The end_station_name for these were updated with one unique name each. Finally, the cleaned consolidated csv file was exported.
+Initially, I imported 13 CSV files containing Jersey City data into Jupyter Notebook. I conducted initial checks on the column data types and verified that each data file had consistent information across its columns. These 13 files were subsequently appended into a single CSV file. Further data validation was carried out to identify and address any missing or incorrect data.
+
+It was identified that the following fields contained null values: start_station_name, start_station_id, end_station_name, end_station_id, end_lat, and end_lng. Consequently, I chose to remove the rows containing these null values from the data file.
+
+Next, I examined the start and end station names to ensure their uniqueness. During this examination, I discovered four end stations with two names, such as 'Murray St & West St' and 'Murray St\t& West St.' To resolve this issue, I updated the end_station_name for these stations to have a single, unique name each.
+
+Finally, I exported the cleaned and consolidated CSV file.
 
 **Resource Files I Used:**
   - JC-202207-citbike-tripdata.csv
@@ -82,7 +88,7 @@ At the beginning, I imported 13 csv Jersey City data files into Jupyter Notebook
 
 ### Part 2: Create the Tableau Workbook and Perform Analysis
 
-In this section, I imported the cleaned consolidated csv file into Tableau and created numerous worksheets to investigate the data to gain insights. Once I was comfortable with the story I wanted to tell, I created 5 dashboards, 4 of which would make up the Tableau story, and one to show the outliers in the data. Note the analysis below excluded rides that lasted more than 120 minutes.
+In this section, I imported the cleaned consolidated CSV file into Tableau and generated multiple worksheets to explore the data and extract insights. Once I had a clear understanding of the narrative I intended to convey, I developed five dashboards. Four of these dashboards contribute to the Tableau story, while one is designed to highlight data outliers. It's important to note that the analysis below excluded rides with a duration exceeding 120 minutes.
 
 **Tableau Story:**
 
