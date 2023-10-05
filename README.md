@@ -1,7 +1,7 @@
 ## citibike-tableau-challenge
 **Module 18 Challenge - Citibike**
 
-In this scenario, as a new lead analyst for the New York Citi Bike program I was tasked with building an interactive Tableau workbook and provide valuable insights into the program. 
+In this scenario, as a new lead analyst for the New York Citi Bike program I was tasked with building an interactive Tableau Public Workbook and provide valuable insights into the program. 
 
 I chose to focus on Jersey City data from July 2022 to July 2023 inclusive. The data was in the form of csv files that were zipped and sourced from: https://citibikenyc.com/system-data. 
 
