@@ -1,11 +1,11 @@
 ## citibike-tableau-challenge
 **Module 18 Challenge - Citibike**
 
-In this scenario, as a new lead analyst for the New York Citi Bike program I was tasked with building an interactive Tableau Public Workbook and provide valuable insights into the program. 
+In this scenario, as a new lead analyst for the New York Citi Bike program, my responsibility was to construct an interactive Tableau Public Workbook and provide valuable insights into the program. 
 
-I chose to focus on Jersey City data from July 2022 to July 2023 inclusive. The data was in the form of csv files that were zipped and sourced from: https://citibikenyc.com/system-data. 
+I opted to concentrate on Jersey City data from July 2022 to July 2023, inclusive. The data was provided in the form of zipped CSV files, sourced from: https://citibikenyc.com/system-data.
 
-Using Jupyter Notebook, I appended and cleaned the data files to be used as a single source to be uploaded to Tableau Public. Once uploaded, worksheets were populated with various measures and views to gain insights. From this I was able to formulate a story by creating 4 dashboards. Lastly, I created a dashboard to show the outliers in the data and the reasoning for excluding them from the analysis.
+Using Jupyter Notebook, I appended and cleaned the data files to create a single, consolidated source for uploading to Tableau Public. Once uploaded, I populated worksheets with various measures and views to extract insights. This allowed me to construct a narrative by creating four dashboards. Finally, I designed a dashboard to display data outliers and explained the rationale behind their exclusion from the analysis.
 
 **The url to my Tableau Public Workbook:**
 https://public.tableau.com/app/profile/katharine.tamas/viz/NewYorkCitiBikeAnalysis_16953918404890/JerseyCityBikesStory?publish=yes
