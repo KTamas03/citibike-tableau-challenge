@@ -27,8 +27,8 @@ https://public.tableau.com/app/profile/katharine.tamas/viz/NewYorkCitiBikeAnalys
   - JC-202306-citibike-tripdata.csv
   - JC-202307-citibike-tripdata.csv
 - Images:
-  - bike icon.png
   - Citibike Logo.png
+  - bike icon.png
   - cycling icon.png
   - distance icon.png
   - docked bike icon.png
@@ -176,8 +176,8 @@ In this section, I imported the cleaned consolidated CSV file into Tableau and g
 ## Sources
 
 - Icons used in tableau dashboard:
-  - bike icon.png (https://www.publicdomainpictures.net/en/view-image.php?image=154290&picture=bicycle-icon)
   - Citibike Logo.png (https://citibikenyc.com/system-data)
+  - bike icon.png (https://www.publicdomainpictures.net/en/view-image.php?image=154290&picture=bicycle-icon)
   - cycling icon.png (https://www.iconfinder.com/icons/2659244/cycling_icon)
   - distance icon.png (https://www.vecteezy.com/vector-art/548562-distance-line-black-icon)
   - docked bike icon.png (https://thenounproject.com/icon/bicycle-parking-60650/)
