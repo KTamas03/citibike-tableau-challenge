@@ -50,7 +50,7 @@ https://public.tableau.com/app/profile/katharine.tamas/viz/NewYorkCitiBikeAnalys
 
 
 ## About
-### Part 1: Clean and Append Data in Jupter Notebook
+### Part 1: Clean and Append Data in Jupyter Notebook
 
 Initially, I imported 13 CSV files containing Jersey City data into Jupyter Notebook. I conducted initial checks on the column data types and verified that each data file had consistent information across its columns. These 13 files were subsequently appended into a single CSV file. Further data validation was carried out to identify and address any missing or incorrect data.
 
